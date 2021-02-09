@@ -8,9 +8,9 @@ This works for websites rendering with SSR or SPA.
 
 ## Work for future
 
-[] Add UI
-[] Add tests
-[] Refactor the mutation observer
+* [ ] Add UI
+* [ ] Add tests
+* [ ] Refactor the mutation observer
 
 ## Show your support
 
