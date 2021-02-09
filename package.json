@@ -1,0 +1,8 @@
+{
+  "name": "vimeo-speed-chrome-extension",
+  "version": "0.1.0",
+  "description": "This small extension for Chrome change the speed of videos in Vimeo to 2X.",
+  "main": "index.js",
+  "author": "Edwin Gonzales @edwinpgm",
+  "license": "ISC"
+}

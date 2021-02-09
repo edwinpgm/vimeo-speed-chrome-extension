@@ -1,0 +1,19 @@
+{
+  "name": "Vimeo Speed",
+  "version": "0.1.0",
+  "description": "This small extension for Chrome change the speed of videos in Vimeo to 2X.",
+  "manifest_version": 3,
+  "icons": {
+    "512": "src/icons/logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["src/js/vimeo-player.js", "src/js/content.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}
